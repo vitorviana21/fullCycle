@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+//const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -25,11 +25,11 @@ export default function Home() {
           </h1>
 
           <p className= 'text-shadow-md max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl'>
-            The Maid is a 2021 American drama television miniseries based on the
+          The Maid is a 2021 American drama television miniseries based on the
             memoir of the same name by Stephanie Land. It stars Margaret Qualley
             as a single mother who becomes a maid to make ends meet while
             struggling with poverty and her abusive relationship with her
-            daughter's father, played by Nick Robinson.
+            daughter&apos;s father, played by Nick Robinson.
           </p>
        
       </div>
