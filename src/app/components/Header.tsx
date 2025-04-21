@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className={`${isScrolled ? 'bg-black' : 'bg-transparent'}
-      fixed top-0 z-50 flex w-full items-center justify-between p-2 transition-all duration-300 ease-in-out lg:px-10 lg:py-4`
+      fixed top-0 z-50 flex w-full items-center justify-between p-2 px-4 transition-all duration-300 ease-in-out lg:px-16 lg:py-4`
       // Ajustes: bg-transparent como padrão, top-0, z-index comum (50), adicionei duration/ease para suavidade
     }>
 
