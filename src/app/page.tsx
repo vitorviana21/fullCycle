@@ -1,7 +1,7 @@
-import Image from "next/image";
+//import Image from "next/image";
 import Header from './components/Header';
-import { InformationCircleIcon } from "@heroicons/react/24/outline";
-import { PlayIcon } from "@heroicons/react/24/solid";
+//import { InformationCircleIcon } from "@heroicons/react/24/outline";
+//import { PlayIcon } from "@heroicons/react/24/solid";
 import { MovieRow } from "./components/MovieRow";
 import { Banner } from "./components/Banner";
 
