@@ -5,11 +5,12 @@ import React, { useEffect } from 'react';
 // Define a type for the component props
 type ErrorProps = {
   error: Error;
-  reset: () => void; // Renomeado de '_' para 'reset' para clareza, mas ainda não usado
+  reset: () => void;
 };
 
 // Use a convenção de prefixar com '_' para indicar que 'reset' não está sendo usado intencionalmente
 // Ou remova 'reset' dos parâmetros se não for necessário pela assinatura do componente de erro do Next.js
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function Error({ error, reset: _reset }: ErrorProps) {
     useEffect(() => {
         // Log the error to an error reporting service
