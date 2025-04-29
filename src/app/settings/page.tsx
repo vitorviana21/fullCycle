@@ -1,4 +1,5 @@
 import React from 'react'
+import BuggButton from '@/app/components/BuggButton';
 import { getAppSettings } from '../lib/settings';
 
 async function Settings() {
@@ -12,6 +13,9 @@ async function Settings() {
             <p>Theme: {theme}</p>
             <p>Language: {language}</p>
         </div>
+        <div className='mt-4'>
+                        <BuggButton />
+                    </div>
         </div>
     );
 };
